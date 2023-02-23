@@ -35,7 +35,7 @@
         android:layout_toEndOf="@id/item_image"
         android:inputType="numberDecimal"
         android:minHeight="48dp"
-        android:text="@string/item_amount"
+        android:hint="@string/item_amount"
         android:textSize="18sp" />
 
     <Button

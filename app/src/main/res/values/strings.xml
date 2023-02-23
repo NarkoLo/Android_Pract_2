@@ -6,4 +6,6 @@
     <string name="authorization">Авторизация</string>
     <string name="item_title">Пиво</string>
     <string name="item_amount">Количество</string>
+    <string name="name">Пиво</string>
+    <string name="comment_to_the_order">Комментарий к заказу:</string>
 </resources>
