@@ -10,4 +10,5 @@
     <string name="comment_to_the_order">Комментарий к заказу:</string>
     <string name="email">Email</string>
     <string name="password">Password</string>
+    <string name="button_add_to_card">Add to Cart</string>
 </resources>

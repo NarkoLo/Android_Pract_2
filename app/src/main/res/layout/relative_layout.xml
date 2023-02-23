@@ -44,6 +44,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_centerVertical="true"
-        android:text="Add to Cart" />
+        android:text="@string/button_add_to_card"
+        android:onClick="addToCard"/>
 
 </RelativeLayout>

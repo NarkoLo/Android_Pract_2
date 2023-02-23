@@ -4,6 +4,9 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
+import android.util.Log;
+import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 
@@ -21,5 +24,11 @@ public class MainActivity extends AppCompatActivity {
 
         EditText passwordField = findViewById(R.id.editText_password);
         passwordField.setText(R.string.password);
+
+        Button button = findViewById(R.id.button_login);
+        button.setOnClickListener(view -> {
+            Log.i("Message", "Signing in");
+
+        });
     }
 }
