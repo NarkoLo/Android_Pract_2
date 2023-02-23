@@ -8,4 +8,6 @@
     <string name="item_amount">Количество</string>
     <string name="name">Пиво</string>
     <string name="comment_to_the_order">Комментарий к заказу:</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
 </resources>
