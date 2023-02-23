@@ -20,12 +20,12 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Цена: $99.99" />
+        android:text="@string/beer_price" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Купить" />
+        android:text="@string/buy_button_text" />
 
     <TextView
         android:layout_width="match_parent"
@@ -36,9 +36,9 @@
 
     <EditText
         android:id="@+id/commentEditText"
-        android:layout_width="match_parent"
+        android:layout_width="@dimen/comment_text_size"
         android:layout_height="wrap_content"
-        android:hint="Введите комментарий"
+        android:hint="@string/comment_hint"
         android:minHeight="48dp" />
 
 </LinearLayout>

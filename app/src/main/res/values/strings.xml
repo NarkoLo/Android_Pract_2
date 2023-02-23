@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Android_Pract_2</string>
+    <string name="comment_hint">Оставьте комментарий к заказу</string>
+    <string name="beer_price">$2.99</string>
+    <string name="buy_button_text">Купить</string>
+    <string name="authorization">Авторизация</string>
+    <string name="item_title">Пиво</string>
+    <string name="item_amount">Количество</string>
 </resources>
