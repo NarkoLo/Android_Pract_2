@@ -10,22 +10,27 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 
+import com.example.android_pract_2.databinding.ActivityMainBinding;
+
 public class MainActivity extends AppCompatActivity {
+
+    private ActivityMainBinding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        ImageView imageView = findViewById(R.id.dr_livsy);
-        imageView.setImageResource(R.drawable.beer);
+        binding = ActivityMainBinding.inflate(getLayoutInflater());
 
-        EditText emailField = findViewById(R.id.editText_email);
+        ImageView imageView = binding.drLivsy;
+        imageView.setImageResource(R.drawable.rom_and_death);
+
+        EditText emailField = binding.editTextEmail;
         emailField.setText(R.string.password);
 
-        EditText passwordField = findViewById(R.id.editText_password);
+        EditText passwordField = binding.editTextPassword;
         passwordField.setText(R.string.password);
 
-        Button button = findViewById(R.id.button_login);
+        Button button = binding.buttonLogin;
         button.setOnClickListener(view -> {
             Log.i("Message", "Signing in");
 
